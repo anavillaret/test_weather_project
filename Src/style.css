@@ -1,11 +1,15 @@
 body {
   font-family: "Julius Sans One", sans-serif;
+  color: rgb(33, 33, 33);
 }
 
 h1 {
-  color: rgb(33, 33, 33);
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+h2 {
   font-size: 30px;
-  font-weight: 100;
+
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -50,7 +54,8 @@ small {
 }
 
 .overview {
-  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 35px;
 }
 .weather-temperature img {
   margin-right: 6px;
