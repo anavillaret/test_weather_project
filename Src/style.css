@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Julius Sans One", sans-serif;
 }
 
 h1 {
@@ -40,6 +40,13 @@ small {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 6px;
+  background: linear-gradient(
+    179.7deg,
+    rgb(248, 126, 126) -2%,
+    rgb(251, 206, 143) 30.3%,
+    rgb(184, 252, 233) 57.2%,
+    rgb(118, 162, 229) 80.3%
+  );
 }
 .overview {
   margin-bottom: 20px;
