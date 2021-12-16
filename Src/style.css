@@ -61,23 +61,27 @@ small {
   margin-bottom: 50px;
 }
 
-.weather-temperature img {
-  margin-right: 6px;
+.weather-temperature {
+  text-align: center;
+}
+
+.weather-temperaturce img {
   height: 64px;
   width: 64px;
-  position: relative;
-  top: -17px;
+  margin-top: 0;
 }
 .weather-temperature strong {
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
+  position: relative;
+  top: 18px;
 }
 
 .weather-temperature .units {
   position: relative;
   font-size: 16px;
-  top: -34px;
+  top: -15px;
 }
 .weather-temperature .active {
   cursor: default;
