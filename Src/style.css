@@ -3,8 +3,8 @@ body {
 }
 
 h1 {
-  color: #878787;
-  font-size: 24px;
+  color: rgb(33, 33, 33);
+  font-size: 30px;
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 0;
@@ -23,8 +23,8 @@ li {
   margin: 0;
   padding: 0;
   text-transform: capitalize;
-  color: #878787;
-  font-size: 16px;
+  color: rgb(33, 33, 33);
+  font-size: 15px;
   font-weight: 100;
   line-height: 19px;
 }
@@ -48,6 +48,7 @@ small {
     rgb(118, 162, 229) 80.3%
   );
 }
+
 .overview {
   margin-bottom: 20px;
 }
@@ -80,7 +81,8 @@ small {
 }
 .weather-forecast-date {
   font-size: 16px;
-  opacity: 0.5;
+
+  color: rgb(33, 33, 33);
 }
 .weather-forecast-temperatures {
   font-size: 13px;
