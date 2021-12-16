@@ -4,14 +4,14 @@ body {
 }
 
 h1 {
-  font-size: 45px;
+  text-align: center;
+  font-size: 40px;
   margin-bottom: 15px;
 }
 h2 {
-  font-size: 30px;
-
+  font-size: 35px;
   line-height: 28px;
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 a {
   text-decoration: none;
@@ -55,8 +55,9 @@ small {
 
 .overview {
   margin-top: 25px;
-  margin-bottom: 35px;
+  margin-bottom: 50px;
 }
+
 .weather-temperature img {
   margin-right: 6px;
   height: 64px;
