@@ -6,11 +6,14 @@ body {
 h1 {
   text-align: center;
   font-size: 40px;
-  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 h2 {
+  text-align: center;
   font-size: 35px;
   line-height: 28px;
+  margin-top: 50px;
   margin-bottom: 15px;
 }
 a {
@@ -28,7 +31,7 @@ li {
   padding: 0;
   text-transform: capitalize;
   color: rgb(33, 33, 33);
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 100;
   line-height: 19px;
 }
@@ -66,7 +69,6 @@ small {
   top: -17px;
 }
 .weather-temperature strong {
-  color: rgb(33, 33, 33);
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
@@ -78,7 +80,6 @@ small {
   top: -34px;
 }
 .weather-temperature .active {
-  color: rgb(33, 33, 33);
   cursor: default;
 }
 .weather-forecast {
@@ -87,8 +88,6 @@ small {
 }
 .weather-forecast-date {
   font-size: 16px;
-
-  color: rgb(33, 33, 33);
 }
 .weather-forecast-temperatures {
   font-size: 13px;
