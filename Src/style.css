@@ -1,6 +1,5 @@
 body {
   background-image: url("file:///Users/anamartins/Desktop/test_project/Images/Group%2032.png");
-  color: rgb(33, 33, 33);
 }
 
 h1 {
@@ -36,19 +35,20 @@ li {
   margin: 0;
   padding: 0;
   text-transform: capitalize;
-  color: rgb(33, 33, 33);
+  color: #272044;
+  opacity: 0.8;
   font-size: 15px;
   font-weight: 200;
   line-height: 19px;
 }
 
-div .row {
-  margin-top: 0;
-}
 div .col-3 {
   text-align: right;
 }
-
+.title {
+  position: relative;
+  top: 4px;
+}
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
@@ -66,10 +66,6 @@ div .col-3 {
     rgb(118, 162, 229) 80.3%
   );
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
-}
-
-.overview {
-  color: grey;
 }
 
 .weather-temperature {
